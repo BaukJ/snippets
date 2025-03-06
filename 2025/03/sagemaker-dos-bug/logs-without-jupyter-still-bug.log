@@ -1,0 +1,74 @@
+[D 2025-03-05 15:40:46.275 ServerApp] 204 POST /aws/sagemaker/api/eventlog?1741189246293 (User@172.17.0.1) 3.35ms
+[D 2025-03-05 15:40:46.279 ServerApp] 204 POST /aws/sagemaker/api/jumpstart/eventlog?1741189246295 (User@172.17.0.1) 2.07ms
+[D 2025-03-05 15:40:47.158 ServerApp] Received AWARENESS message from endpoint: JupyterLab:globalAwareness
+[D 2025-03-05 15:40:47.158 ServerApp] Sending Y awareness from client with endpoint JupyterLab:globalAwareness to client with endpoint: JupyterLab:globalAwareness
+[D 2025-03-05 15:40:47.272 ServerApp] 200 GET /api/kernels?1741189247301 (User@172.17.0.1) 1.34ms
+[D 2025-03-05 15:40:49.473 ServerApp] 200 GET /api/contents?content=1&hash=0&1741189249491 (User@172.17.0.1) 26.62ms
+[D 2025-03-05 15:40:49.825 ServerApp] Received AWARENESS message from endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:40:49.826 ServerApp] Sending Y awareness from client with endpoint text:file:caf92456-c492-4998-be48-9d52f450febc to client with endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:40:50.092 ServerApp] [pylsp] Handling a message
+[D 2025-03-05 15:40:50.595 ServerApp] Received SYNC_UPDATE message from endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:40:50.596 ServerApp] Sending Y update to client with endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:40:50.597 ServerApp] Writing Y update to YStore
+[D 2025-03-05 15:40:50.601 ServerApp] [pylsp] Handling a message
+[D 2025-03-05 15:40:50.769 ServerApp] Received SYNC_UPDATE message from endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:40:50.770 ServerApp] Sending Y update to client with endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:40:50.770 ServerApp] Writing Y update to YStore
+[D 2025-03-05 15:40:50.772 ServerApp] [pylsp] Handling a message
+[D 2025-03-05 15:40:50.859 ServerApp] 200 GET /api/sessions?1741189250911 (User@172.17.0.1) 1.18ms
+[D 2025-03-05 15:40:50.968 ServerApp] Received SYNC_UPDATE message from endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:40:50.968 ServerApp] Sending Y update to client with endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:40:50.969 ServerApp] Writing Y update to YStore
+[D 2025-03-05 15:40:50.969 ServerApp] [pylsp] Handling a message
+[D 2025-03-05 15:40:51.141 ServerApp] 204 POST /aws/sagemaker/api/eventlog?1741189251192 (User@172.17.0.1) 1.64ms
+[D 2025-03-05 15:40:51.143 ServerApp] 204 POST /aws/sagemaker/api/jumpstart/eventlog?1741189251193 (User@172.17.0.1) 1.55ms
+[D 2025-03-05 15:40:51.234 ServerApp] [pylsp] Handling a message
+[D 2025-03-05 15:40:51.245 ServerApp] Received SYNC_UPDATE message from endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:40:51.247 ServerApp] Sending Y update to client with endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:40:51.247 ServerApp] Writing Y update to YStore
+[D 2025-03-05 15:40:51.248 ServerApp] [pylsp] Handling a message
+[D 2025-03-05 15:40:51.511 ServerApp] [pylsp] Handling a message
+[D 2025-03-05 15:40:51.591 ServerApp] Received SYNC_UPDATE message from endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:40:51.591 ServerApp] Sending Y update to client with endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:40:51.592 ServerApp] Writing Y update to YStore
+[D 2025-03-05 15:40:51.593 ServerApp] [pylsp] Handling a message
+[D 2025-03-05 15:40:51.843 ServerApp] [pylsp] Handling a message
+[D 2025-03-05 15:40:52.082 ServerApp] Received SYNC_UPDATE message from endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:40:52.083 ServerApp] Sending Y update to client with endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:40:52.083 ServerApp] Writing Y update to YStore
+[D 2025-03-05 15:40:52.085 ServerApp] [pylsp] Handling a message
+[D 2025-03-05 15:40:52.340 ServerApp] [pylsp] Handling a message
+[I 2025-03-05 15:40:53.084 ServerApp] Saving the content from room text:file:caf92456-c492-4998-be48-9d52f450febc
+[I 2025-03-05 15:40:53.086 YDocExtension] Saving file: b.py
+[D 2025-03-05 15:40:53.088 ServerApp] Saving /home/sagemaker-user/b.py
+[D 2025-03-05 15:40:53.107 ServerApp] Sending Y update to client with endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:40:53.108 ServerApp] Writing Y update to YStore
+[D 2025-03-05 15:40:55.281 ServerApp] Received AWARENESS message from endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:40:55.281 ServerApp] Sending Y awareness from client with endpoint text:file:caf92456-c492-4998-be48-9d52f450febc to client with endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:40:55.283 ServerApp] Received AWARENESS message from endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:40:55.283 ServerApp] Sending Y awareness from client with endpoint text:file:caf92456-c492-4998-be48-9d52f450febc to client with endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[E 2025-03-05 15:40:55.285 ServerApp] Failed to write message
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.11/site-packages/jupyter_collaboration/handlers.py", line 270, in send
+        self.write_message(message, binary=True)
+      File "/opt/conda/lib/python3.11/site-packages/tornado/websocket.py", line 332, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[D 2025-03-05 15:40:55.295 ServerApp] <LspStdIoReader(parent=<LanguageServerSession(language_server=pylsp, argv=['/opt/conda/bin/python3.11', '-m', 'pylsp'])>)> closed
+[D 2025-03-05 15:40:55.296 ServerApp] <LspStdIoWriter(parent=<LanguageServerSession(language_server=pylsp, argv=['/opt/conda/bin/python3.11', '-m', 'pylsp'])>)> closed
+[D 2025-03-05 15:40:55.297 ServerApp] [pylsp] Closed a handler
+[D 2025-03-05 15:40:55.328 ServerApp] Received AWARENESS message from endpoint: JupyterLab:globalAwareness
+[D 2025-03-05 15:40:55.328 ServerApp] Sending Y awareness from client with endpoint JupyterLab:globalAwareness to client with endpoint: JupyterLab:globalAwareness
+[D 2025-03-05 15:40:56.288 ServerApp] Received AWARENESS message from endpoint: JupyterLab:globalAwareness
+[D 2025-03-05 15:40:56.288 ServerApp] Sending Y awareness from client with endpoint JupyterLab:globalAwareness to client with endpoint: JupyterLab:globalAwareness
+[D 2025-03-05 15:40:56.292 ServerApp] 204 POST /aws/sagemaker/api/eventlog?1741189256282 (User@172.17.0.1) 2.25ms
+[D 2025-03-05 15:40:56.296 ServerApp] 204 POST /aws/sagemaker/api/jumpstart/eventlog?1741189256283 (User@172.17.0.1) 2.70ms
+[D 2025-03-05 15:40:56.685 ServerApp] Sending awareness from server to client with endpoint: JupyterLab:globalAwareness
+[D 2025-03-05 15:40:56.687 ServerApp] Received AWARENESS message from endpoint: JupyterLab:globalAwareness
+[D 2025-03-05 15:40:56.687 ServerApp] Sending Y awareness from client with endpoint JupyterLab:globalAwareness to client with endpoint: JupyterLab:globalAwareness
+[D 2025-03-05 15:40:58.305 ServerApp] 200 GET /api/kernels?1741189258286 (User@172.17.0.1) 0.86ms
+[D 2025-03-05 15:41:00.341 ServerApp] 200 GET /api/contents?content=1&hash=0&1741189260285 (User@172.17.0.1) 32.10ms
+[D 2025-03-05 15:41:01.310 ServerApp] 200 GET /api/sessions?1741189261289 (User@172.17.0.1) 0.90ms
+[D 2025-03-05 15:41:01.312 ServerApp] 204 POST /aws/sagemaker/api/eventlog?1741189261290 (User@172.17.0.1) 1.37ms
+[D 2025-03-05 15:41:01.312 ServerApp] 204 POST /aws/sagemaker/api/jumpstart/eventlog?1741189261290 (User@172.17.0.1) 1.27ms
+[D 2025-03-05 15:41:06.205 ServerApp] 204 POST /aws/sagemaker/api/eventlog?1741189266192 (User@172.17.0.1) 1.15ms

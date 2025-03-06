@@ -1,0 +1,12 @@
+[D 2025-03-05 15:37:25.296 ServerApp] 200 GET /api/kernels?1741189045277 (User@172.17.0.1) 1.65ms
+[D 2025-03-05 15:37:27.700 ServerApp] Received SYNC_UPDATE message from endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:37:27.701 ServerApp] Sending Y update to client with endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:37:27.701 ServerApp] Writing Y update to YStore
+[D 2025-03-05 15:37:27.704 ServerApp] [pylsp] Handling a message
+[D 2025-03-05 15:37:27.973 ServerApp] [pylsp] Handling a message
+[I 2025-03-05 15:37:28.702 ServerApp] Saving the content from room text:file:caf92456-c492-4998-be48-9d52f450febc
+[I 2025-03-05 15:37:28.703 YDocExtension] Saving file: b.py
+[D 2025-03-05 15:37:28.704 ServerApp] Saving /home/sagemaker-user/b.py
+[D 2025-03-05 15:37:28.712 ServerApp] Sending Y update to client with endpoint: text:file:caf92456-c492-4998-be48-9d52f450febc
+[D 2025-03-05 15:37:28.712 ServerApp] Writing Y update to YStore
+[D 2025-03-05 15:37:29.298 ServerApp] [pylsp] Handling a message
