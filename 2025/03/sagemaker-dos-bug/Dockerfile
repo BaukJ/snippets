@@ -1,21 +1,25 @@
-FROM public.ecr.aws/sagemaker/sagemaker-distribution:2.2.0-cpu AS base
+FROM python:3 AS base
 
-RUN sudo apt update\
- && sudo apt install -y dos2unix\
- && sudo apt clean -y all\
- && sudo rm -rf /var/cache
+RUN apt update\
+ && apt install -y dos2unix\
+ && apt clean -y all\
+ && rm -rf /var/cache
 
-CMD ["bash", "-c", "jupyter-lab --ServerApp.ip=0.0.0.0 --ServerApp.port=8888 --ServerApp.allow_origin='*' --ServerApp.token='' --ServerApp.base_url=/ --log-level=0"]
+RUN pip install --no-cache-dir jupyterlab jupyter-collaboration
+
+COPY example.py /example-unix.py
+
+RUN cp /example-unix.py /example-dos.py\
+ && dos2unix /example-unix.py\
+ && unix2dos /example-dos.py
+
+CMD ["bash", "-c", "jupyter-lab --ServerApp.ip=0.0.0.0 --ServerApp.port=8888 --ServerApp.allow_origin='*' --ServerApp.token='' --ServerApp.base_url=/ --log-level=0 --allow-root"]
 
 FROM base AS install-leaflet
-#ARG MAMBA_DOCKERFILE_ACTIVATE=1
-RUN source _activate_current_env.sh\
- && micromamba install -y jupyter_leaflet ipyleaflet
+RUN pip install --no-cache-dir jupyter_leaflet ipyleaflet
 
 FROM install-leaflet AS uninstall-leaflet
-RUN source _activate_current_env.sh\
- &&micromamba remove -y jupyter_leaflet ipyleaflet
+RUN pip uninstall -y --no-cache-dir jupyter_leaflet ipyleaflet
 
 FROM base AS uninstall-collab
-RUN source _activate_current_env.sh\
- &&micromamba remove -y jupyter-collaboration
+RUN pip uninstall -y --no-cache-dir jupyter-collaboration
