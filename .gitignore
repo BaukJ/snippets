@@ -1,1 +1,7 @@
+# Generic
 logs/
+
+# Terraform
+terraform.tfvars
+.terraform*
+terraform.tfstate*
