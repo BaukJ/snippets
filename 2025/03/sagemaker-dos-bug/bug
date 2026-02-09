@@ -1,0 +1,52 @@
+<!-- Welcome! Thank you for contributing. These HTML comments will not render in the issue.
+
+Before creating a new issue:
+* Search for relevant issues
+* Follow the issue reporting guidelines:
+https://jupyterlab.readthedocs.io/en/latest/getting_started/issue.html
+-->
+
+## Description
+
+The collab plugin changes the autosave functionality to force save files.
+When files have DOS line endings, any text entered is saved shifted to the left.
+This is apparent if the file is closed and re-opened, as it appears fine in the editor but is saved incorrectly to disk.
+
+Example of the same change being applied to 2 files, one with dos line endings and one with normal linux line endings:
+
+```
+==> example-dos.py <==
+
+import os
+import sys
+
+nameKuba = ""
+print(f"Hello {name}")
+
+==> example-unix.py <==
+
+import os
+import sys
+
+name = "Kuba"
+print(f"Hello {name}")
+
+```
+
+
+## Reproduce
+
+
+See this PR with a failing test for DOS and passing for Linux.: <TODO>
+
+Also see this notebook: https://github.com/BaukJ/work-snippets/blob/main/2025/03/sagemaker-dos-bug/DosBugNotebook.ipynb
+
+
+## Expected behavior
+
+Files with DOS line endings should also be saved successfully.
+
+## Context
+
+Reproduced on multiple systems, first found in sagemaker, 
+
